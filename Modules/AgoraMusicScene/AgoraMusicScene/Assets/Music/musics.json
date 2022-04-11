@@ -1,0 +1,41 @@
+[{
+    "name": "春天在哪里-原唱",
+    "identifier": "0011",
+    "music": "春天在哪里-原唱.mp3",
+    "lyric": "春天在哪里.xml"
+}, {
+    "name": "春天在哪里-伴奏",
+    "identifier": "0012",
+    "music": "春天在哪里-伴奏.mp3",
+    "lyric": "春天在哪里.xml"
+}, {
+    "name": "七里香-原唱",
+    "identifier": "0021",
+    "music": "七里香-原唱.mp3",
+    "lyric": "七里香.xml"
+}, {
+    "name": "七里香-伴奏",
+    "identifier": "0022",
+    "music": "七里香-伴奏.mp3",
+    "lyric": "七里香.xml"
+}, {
+    "name": "外婆的澎湖湾-原唱",
+    "identifier": "0031",
+    "music": "外婆的澎湖湾-原唱.mp3",
+    "lyric": "外婆的澎湖湾.xml"
+}, {
+    "name": "外婆的澎湖湾-伴奏",
+    "identifier": "0032",
+    "music": "外婆的澎湖湾-伴奏.mp3",
+    "lyric": "外婆的澎湖湾.xml"
+}, {
+    "name": "遇见-原唱",
+    "identifier": "0041",
+    "music": "遇见-原唱.mp3",
+    "lyric": "遇见.xml"
+}, {
+    "name": "遇见-伴奏",
+    "identifier": "0042",
+    "music": "遇见-伴奏.mp3",
+    "lyric": "遇见.xml"
+}]
