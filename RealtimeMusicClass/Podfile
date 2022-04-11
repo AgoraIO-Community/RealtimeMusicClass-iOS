@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'RealtimeMusicClass' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for RealtimeMusicClass
+  pod 'SwifterSwift'
+  pod 'SnapKit'
+  pod 'AgoraRtcEngine_Special_iOS', '3.6.200.103' 
+  pod 'AGEVideoLayout', '~> 1.0.2'
+  pod 'AgoraRtm_iOS', '~> 1.4.7'
+  pod 'Zip', '~> 2.1'
+  pod 'Whiteboard', '~> 2.15.23'
+  pod 'AgoraMusicScene', :path => '../Modules/AgoraMusicScene'
+  pod 'AgoraMusicEngine', :path => '../Modules/AgoraMusicEngine'
+  pod 'AgoraSceneEntranceModule', :path => '../Modules/AgoraSceneEntranceModule'
+  pod 'AgoraViewKit', :path => '../Modules/AgoraViewKit'
+  # monitor
+  pod 'DoraemonKit'
+
+end
+
+post_install do |installer|
+  installer.pods_project.build_configurations.each do |config|
+    config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+  end
+end

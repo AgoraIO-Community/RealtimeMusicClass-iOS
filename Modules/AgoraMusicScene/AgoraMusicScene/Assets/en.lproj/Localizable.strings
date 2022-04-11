@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+ 
+  Copyright © 2020 Agora. All rights reserved.
+*/
+
+rtm_role_student = "Student";
+rtm_role_teacher = "Teacher";
+rtm_role_audience = "Audience";
+rtm_title_chat = "Chat";
+rtm_no_message = "No Message";
+rtm_send_message = "Send";
+rtm_input_placeholder = "Input";

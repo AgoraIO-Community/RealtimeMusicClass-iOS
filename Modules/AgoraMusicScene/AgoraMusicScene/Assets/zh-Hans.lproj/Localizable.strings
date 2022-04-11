@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  
+  Copyright © 2020 Agora. All rights reserved.
+*/
+
+rtm_role_student = "学生";
+rtm_role_teacher = "老师";
+rtm_role_audience = "观众";
+rtm_title_chat = "聊天";
+rtm_no_message = "还没有消息";
+rtm_send_message = "发送";
+rtm_input_placeholder = "请输入消息";
